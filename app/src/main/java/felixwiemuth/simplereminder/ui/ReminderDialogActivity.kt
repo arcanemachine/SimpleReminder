@@ -156,7 +156,6 @@ abstract class ReminderDialogActivity : AppCompatActivity() {
 
         nameTextView.imeOptions = EditorInfo.IME_ACTION_DONE
         nameTextView.setImeActionLabel(getString(R.string.keyboard_action_add_reminder), EditorInfo.IME_ACTION_DONE)
-        nameTextView.requestFocus()
         nameTextView.setRawInputType(InputType.TYPE_CLASS_TEXT)
         nameTextView.setOnEditorActionListener { _: TextView?, actionId: Int, _: KeyEvent? ->
             if (actionId == EditorInfo.IME_ACTION_DONE) {

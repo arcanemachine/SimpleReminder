@@ -64,7 +64,7 @@
             android:launchMode="singleTask"
             android:taskAffinity="felixwiemuth.simplereminder.addreminder"
             android:theme="@style/AppTheme.DialogActivity"
-            android:windowSoftInputMode="stateVisible">
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -81,7 +81,7 @@
             android:launchMode="singleTask"
             android:taskAffinity="felixwiemuth.simplereminder.editreminder"
             android:theme="@style/AppTheme.DialogActivity"
-            android:windowSoftInputMode="stateVisible" />
+            android:windowSoftInputMode="stateHidden" />
 
         <service
             android:name=".QuickTileService"
